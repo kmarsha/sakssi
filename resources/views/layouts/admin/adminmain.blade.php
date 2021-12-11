@@ -34,17 +34,17 @@
           <!-- Nav items -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="{{ url('admin/dashboard') }}">
+              <a class="nav-link" href="{{ url('admin/dashboard') }}">
                 <i class="ni ni-tv-2 text-primary"></i>
                 <span class="nav-link-text">Dashboard</span>
               </a>
             </li>
-            {{-- <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url('dashboard') }}">
                 <i class="ni ni-planet text-orange"></i>
-                <span class="nav-link-text">Course</span>
+                <span class="nav-link-text">Student/Teacher Dashboard</span>
               </a>
-            </li> --}}
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url('coba') }}">
                 <i class="ni ni-single-02 text-yellow"></i>
